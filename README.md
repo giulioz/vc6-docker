@@ -27,6 +27,14 @@ nmake
 test # Hello world!
 ```
 
+### Getting the includes
+
+When working with your editor of choice (like VS Code) you may need to configure the include path for the suggestions. Since the files are inside the container, you can use the following command to copy them in your machine.
+
+```bash
+docker run --rm -it -v $(pwd):/prj giulioz/vc6-docker bash /opt/vc/copy_includes.sh
+```
+
 ## Building it
 
 ```bash

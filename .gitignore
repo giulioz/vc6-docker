@@ -1,3 +1,5 @@
 .DS_Store
 *.exe
 *.obj
+vc6
+.vscode
